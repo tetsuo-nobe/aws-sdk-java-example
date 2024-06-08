@@ -25,26 +25,26 @@ s3basic
 │   ├── main
 │   │   ├── java
 │   │   │   └── example.s3
-│   │   │       ├── CreateBucket.java
-│   │   │       ├── DeleteBucket.java
-│   │   │       ├── DeleteObject.java
-│   │   │       ├── GetObject.java
-│   │   │       ├── HeadBucket.java
-│   │   │       ├── ListBuckets.java
-│   │   │       └── PutObject.java
+│   │   │       ├── CreateBucketExample.java
+│   │   │       ├── DeleteBucketExample.java
+│   │   │       ├── DeleteObjectExample.java
+│   │   │       ├── GetObjectExample.java
+│   │   │       ├── HeadBucketExample.java
+│   │   │       ├── ListBucketsExample.java
+│   │   │       └── PutObjectExample.java
 │   │   └── resources
 │   │       ├── config.properties
 │   │       └── simplelogger.properties
 ```
 
-- `CreateBucket.java`: バケットの作成
-- `ListBuckets.java`: バケット一覧の表示
-- `HeadBucket.java`: バケットの存在チェック
-- `PutObject.java`: オブジェクトの格納
-- `GetObject.java`: オブジェクトの取得
-- `DeleteObject.java`: オブジェクトの削除
-- `GeneratePresignedURL.java`: 署名付き URL の作成
-- `DeleteBucket.java`: バケットの削除
+- `CreateBucketExample.java`: バケットの作成
+- `ListBucketsExample.java`: バケット一覧の表示
+- `HeadBucketExample.java`: バケットの存在チェック
+- `PutObjectExample.java`: オブジェクトの格納
+- `GetObjectExample.java`: オブジェクトの取得
+- `DeleteObjectExample.java`: オブジェクトの削除
+- `GeneratePresignedURLExample.java`: 署名付き URL の作成
+- `DeleteBucketExample.java`: バケットの削除
 
 
 #### Compile and Execution
@@ -66,7 +66,7 @@ mvn exec:java -Dexec.mainClass="example.s3.(クラス名)"
 
 - 例
 ```
-mvn exec:java -Dexec.mainClass="example.s3.CreateBucket"
+mvn exec:java -Dexec.mainClass="example.s3.CreateBucketExample"
 ```
 
 
