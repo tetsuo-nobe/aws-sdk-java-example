@@ -1,0 +1,10 @@
+/home/ec2-user/environment/ddbbasic/src/main/java/example/dynamodb/ListTablesExample.java
+/home/ec2-user/environment/ddbbasic/src/main/java/example/dynamodb/DeleteItemExample.java
+/home/ec2-user/environment/ddbbasic/src/main/java/example/dynamodb/PutItemExample.java
+/home/ec2-user/environment/ddbbasic/src/main/java/example/dynamodb/QueryExample.java
+/home/ec2-user/environment/ddbbasic/src/main/java/example/dynamodb/CreateTableExample.java
+/home/ec2-user/environment/ddbbasic/src/main/java/example/dynamodb/GetItemExample.java
+/home/ec2-user/environment/ddbbasic/src/main/java/example/dynamodb/ScanPaginatorExample.java
+/home/ec2-user/environment/ddbbasic/src/main/java/example/dynamodb/DeleteTableExample.java
+/home/ec2-user/environment/ddbbasic/src/main/java/example/dynamodb/UpdateItemExample.java
+/home/ec2-user/environment/ddbbasic/src/main/java/example/dynamodb/ScanExample.java
